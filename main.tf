@@ -12,6 +12,5 @@ variable "params" {
     { name = "roboshop.dev.frontend.cart_url",value = "http://cart.dev.afroz1.online:8080", type = "String" },
     { name = "roboshop.dev.frontend.payment_url",value = "http://payment.dev.afroz1.online:8080", type = "String" },
     { name = "roboshop.dev.frontend.shipping_url",value = "http://shipping.dev.afroz1.online:8080", type = "String" },
-
   ]
 }
