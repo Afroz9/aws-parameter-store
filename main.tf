@@ -25,9 +25,9 @@ variable "params" {
     { name = "roboshop.dev.payment.amqp_user",value = "roboshop", type = "String" },
     { name = "roboshop.dev.shipping.cart_endpoint",value = "roboshop", type = "String" },
     { name = "roboshop.dev.shipping.db_host",value = "cart-dev.afroz1.online:8080", type = "String" },
-    "roboshop.dev.user.mongo",value = "true", type = "String" },
-    "roboshop.dev.user.redis_host",value = "redis.online:8080", type = "String" },
-    "roboshop.dev.user.mongo_url",value = "mongodb://mongodb-{{env}}.afroz1.online:27017/users", type = "String" },
+    { name ="roboshop.dev.user.mongo",value = "true", type = "String" },
+    { name ="roboshop.dev.user.redis_host",value = "redis.online:8080", type = "String" },
+    { name ="roboshop.dev.user.mongo_url",value = "mongodb://mongodb-{{env}}.afroz1.online:27017/users", type = "String" },
 
     ### passwords wil be never of git repos,
     { name = "roboshop.dev.payment.amqp_pass",value = "mysql-dev.afroz1.online", type = "SecureString" },
